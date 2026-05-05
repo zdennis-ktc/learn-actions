@@ -3,4 +3,8 @@
 7.	  pull_request:
 8.	    types: [opened]
 9.	permissions:
-  pull-requests: write
+      pull-requests: write
+9.	jobs:
+10.	  welcome:
+11.	    name: Post welcome comment
+        runs-on: ubuntu-latest
